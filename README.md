@@ -20,10 +20,10 @@ git pull is faster and more convenient as it performs both download and merge in
 
 # Explain in simple terms git rebase and the command for it
 Rebasing is like picking up your branch (C) and neatly placing it on top of the latest commit in the main branch (E), creating a linear history.
-git fetch origin
-git rebase origin/main
+- git fetch origin
+- git rebase origin/main
 
 # Explain in simple terms git cherry-pick and the command for it 
 Imagine you're working on a project with your friend, and you both have your own branches. Let's call yours "feature_cool_button" and theirs "bug_fix_menu." You accidentally made a cool button animation that your friend needs for their bug fix, but integrating the whole "feature_cool_button" branch would mess up their changes.
-git cherry-pick <commit-ID>
-git cherry-pick --no-commit <commit-ID>
+- git cherry-pick <commit-ID>
+- git cherry-pick --no-commit <commit-ID>
